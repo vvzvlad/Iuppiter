@@ -15,10 +15,6 @@ config.GPIO.N1 = 10
 config.GPIO.N9 = 11
 config.GPIO.N10 = 12
 
-config.LED_GREEN_GPIO = config.GPIO.N4
-config.LED_RB1_GPIO = config.GPIO.N15
-config.LED_RB2_GPIO = config.GPIO.N13
-
 config.USERCONFIG_FLAG = "userconfig.flag"
 config.USERCONFIG_FILE = "userconfig.cfg"
 config.AP_NAME = "DevName_CONFIG_"..node.chipid()
@@ -32,14 +28,11 @@ config.TIMER_APPSTART = 1
 config.TIMER_REBOOT = 3
 config.TIMER_DHCPTEST = 1
 
-
 config.WAIT_FOR_RESTART = 5*1000
 
 config.SSID = {}  
---config.SSID["IoT_Dobbi"] = "was7thod"
---config.SSID["Mike's spot"] = "9150232120"
---config.SSID["Madrobots.ru"] = "FERG2N76"
---config.SSID["beeline135"] = "0850627249135"
-
+config.SSID["IoT_Dobbi"] = "was7thod"
+config.SSID["NAME_AP"] = "AP_PASS"
+config.SSID["NAME_AP_2"] = "AP_PASS_2"
 
 return config  

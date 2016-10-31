@@ -10,14 +10,8 @@ function system.reboot(message, delay)
 end
 
 
-function system.led(state)  
-    if (state == "off") then
-        gpio.mode(config.LED_GREEN_GPIO, gpio.OUTPUT)
-        gpio.write(config.LED_GREEN_GPIO, gpio.LOW)
-    else
-        gpio.mode(config.LED_GREEN_GPIO, gpio.OUTPUT)
-        gpio.write(config.LED_GREEN_GPIO, gpio.HIGH) 
-    end
+function system.led(state, led)  
+
 end
 
 
