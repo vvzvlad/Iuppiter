@@ -16,7 +16,7 @@
           "category": "Contributed",
           "url": "https://github.com/vvzvlad/Iuppiter/raw/master/avrcore/IupputerAVRCore-0.95.tar.gz",
           "archiveFileName": "IupputerAVRCore-0.95.tar.gz",
-          "checksum": "SHA-256:4067643736365fa5f86f7438cb5587432261c2298cd237e2175373c6aa3b23ba",
+          "checksum": "SHA-256:c3c798117518eac355e2de057005bf4bc7001b968eff9ec54ea2ba87b97dadc6",
           "size": "27733",
           "boards": [
             {"name": "ATmega168"},
