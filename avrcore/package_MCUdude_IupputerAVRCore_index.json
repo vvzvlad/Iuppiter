@@ -14,10 +14,10 @@
           "architecture": "avr",
           "version": "0.95",
           "category": "Contributed",
-          "url": "https://github.com/vvzvlad/Iuppiter/raw/master/avrcore/IupputerAVRCore-0.95.tar.gz",
+          "url": "https://github.com/vvzvlad/Iuppiter/raw/master/avrcore/IupputerAVRCore-0.95/IupputerAVRCore-0.95.tar.gz",
           "archiveFileName": "IupputerAVRCore-0.95.tar.gz",
-          "checksum": "SHA-256:a240f8f705d487df92565f88c9f4f8fec5d0fcec3aab6c9bb6d501533d8e06a5",
-          "size": "27563",
+          "checksum": "SHA-256:c1c68597b73177eb56442c24d2131ba9ae9cf4f988af5a49fa908c7ee2f415fe",
+          "size": "27517",
           "boards": [
             {"name": "ATmega168"},
             {"name": "ATmega8"}
