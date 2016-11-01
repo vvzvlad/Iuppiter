@@ -1,0 +1,109 @@
+# Menu options
+menu.variant=Variant
+menu.clock=Clock
+menu.BOD=BOD 
+menu.LTO=Link-Time optimization
+
+##########################
+#### ATmega168 ####
+##########################
+
+168.name=ATmega168
+168.upload.tool=avrdude
+168.upload.protocol=arduino
+168.upload.maximum_size=15872
+168.upload.maximum_data_size=1024
+
+168.bootloader.tool=avrdude
+168.bootloader.unlock_bits=0x3f
+168.bootloader.lock_bits=0x0f
+
+168.build.core=arduino:arduino
+168.build.board=AVR_ATmega168
+168.build.variant=standard
+
+# Variants
+168.menu.variant.modelP=168P / 168PA
+168.menu.variant.modelP.build.mcu=atmega168p
+168.menu.variant.modelNonP=168 / 168A
+168.menu.variant.modelNonP.build.mcu=atmega168
+
+# Compiler link time optimization
+168.menu.LTO.Os=Disabled (default)
+168.menu.LTO.Os.compiler.c.extra_flags=
+168.menu.LTO.Os.compiler.c.elf.extra_flags=
+168.menu.LTO.Os.compiler.cpp.extra_flags=
+168.menu.LTO.Os.ltoarcmd=avr-ar
+
+168.menu.LTO.Os_flto=Enabled
+168.menu.LTO.Os_flto.compiler.c.extra_flags=-Wextra -flto
+168.menu.LTO.Os_flto.compiler.c.elf.extra_flags=-w -flto
+168.menu.LTO.Os_flto.compiler.cpp.extra_flags=-Wextra -flto
+168.menu.LTO.Os_flto.ltoarcmd=avr-gcc-ar
+
+# Clock frequencies
+168.menu.clock.8MHz_internal=8 MHz internal  (BOD 1.8v)
+168.menu.clock.8MHz_internal.upload.speed=38400
+168.menu.clock.8MHz_internal.bootloader.low_fuses=0xe2
+168.menu.clock.8MHz_internal.bootloader.high_fuses=0xd6
+168.menu.clock.8MHz_internal.bootloader.extended_fuses=0xff
+168.menu.clock.8MHz_internal.bootloader.file=empty/empty.hex
+168.menu.clock.8MHz_internal.build.f_cpu=8000000L
+
+168.menu.clock.1MHz_internal=1 MHz internal  (BOD 1.8v)
+168.menu.clock.1MHz_internal.upload.speed=9600
+168.menu.clock.1MHz_internal.bootloader.low_fuses=0x62
+168.menu.clock.1MHz_internal.bootloader.high_fuses=0xd6
+168.menu.clock.1MHz_internal.bootloader.extended_fuses=0xff
+168.menu.clock.1MHz_internal.bootloader.file=empty/empty.hex
+168.menu.clock.1MHz_internal.build.f_cpu=1000000L
+
+
+###################
+#### ATmega8 ####
+###################
+
+8.name=ATmega8
+8.upload.tool=avrdude
+8.upload.protocol=arduino
+8.upload.maximum_size=7680
+8.upload.maximum_data_size=1024
+
+8.bootloader.tool=avrdude
+8.bootloader.unlock_bits=0x3f
+8.bootloader.lock_bits=0x0f
+
+8.build.core=arduino:arduino
+8.build.board=AVR_ATmega8
+8.build.variant=standard
+8.build.mcu=atmega8
+
+# Compiler link time optimization
+8.menu.LTO.Os=Disabled (default)
+8.menu.LTO.Os.compiler.c.extra_flags=
+8.menu.LTO.Os.compiler.c.elf.extra_flags=
+8.menu.LTO.Os.compiler.cpp.extra_flags=
+8.menu.LTO.Os.ltoarcmd=avr-ar
+
+8.menu.LTO.Os_flto=Enabled
+8.menu.LTO.Os_flto.compiler.c.extra_flags=-Wextra -flto
+8.menu.LTO.Os_flto.compiler.c.elf.extra_flags=-w -flto
+8.menu.LTO.Os_flto.compiler.cpp.extra_flags=-Wextra -flto
+8.menu.LTO.Os_flto.ltoarcmd=avr-gcc-ar
+
+# Clock frequencies
+8.menu.clock.8MHz_internal=8 MHz internal
+8.menu.clock.8MHz_internal.upload.speed=38400
+8.menu.clock.8MHz_internal.bootloader.low_fuses=0x64
+8.menu.clock.8MHz_internal.bootloader.high_fuses=0xd9
+8.menu.clock.8MHz_internal.bootloader.file=empty/empty.hex
+8.menu.clock.8MHz_internal.build.f_cpu=8000000L
+
+8.menu.clock.1MHz_internal=1 MHz internal
+8.menu.clock.1MHz_internal.upload.speed=9600
+8.menu.clock.1MHz_internal.bootloader.low_fuses=0x61
+8.menu.clock.1MHz_internal.bootloader.high_fuses=0xd9
+8.menu.clock.1MHz_internal.bootloader.file=empty/empty.hex
+8.menu.clock.1MHz_internal.build.f_cpu=1000000L
+
+############################################################

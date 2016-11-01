@@ -1,0 +1,13 @@
+esp8266dns.name=Iuppiter AVR programmer(iuppiteravrisp.lc)
+esp8266dns.communication=net
+esp8266dns.protocol=stk500v1
+esp8266dns.program.protocol=stk500v1
+esp8266dns.program.tool=avrdude
+esp8266dns.program.extra_params=-P net:iuppiteravrisp.lc:328
+
+esp8266ip.name=Iuppiter AVR programmer(192.168.1.111)
+esp8266ip.communication=net
+esp8266ip.protocol=stk500v1
+esp8266ip.program.protocol=stk500v1
+esp8266ip.program.tool=avrdude
+esp8266ip.program.extra_params=-P net:192.168.1.111:328
