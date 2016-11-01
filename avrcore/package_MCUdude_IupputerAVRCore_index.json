@@ -14,7 +14,7 @@
           "architecture": "avr",
           "version": "0.95",
           "category": "Contributed",
-          "url": "",
+          "url": "https://github.com/vvzvlad/Iuppiter/raw/master/avrcore/IupputerAVRCore-0.95.tar.gz",
           "archiveFileName": "IupputerAVRCore-0.95.tar.gz",
           "checksum": "SHA-256:0fa6ef09d6535c662b6bc0ff4b6188c789ed5fed63163b688f317f4b9f7d0d4b",
           "size": "27492",
