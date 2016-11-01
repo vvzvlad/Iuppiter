@@ -10,7 +10,6 @@ menu.LTO=Link-Time optimization
 
 168.name=ATmega168
 168.upload.tool=avrdude
-168.upload.protocol=arduino
 168.upload.maximum_size=15872
 168.upload.maximum_data_size=1024
 
@@ -65,7 +64,6 @@ menu.LTO=Link-Time optimization
 
 8.name=ATmega8
 8.upload.tool=avrdude
-8.upload.protocol=arduino
 8.upload.maximum_size=7680
 8.upload.maximum_data_size=1024
 
