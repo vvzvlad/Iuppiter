@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "IupputerAVRCore",
+      "name": "Iupputer AVR",
       "maintainer": "Iupputer",
       "websiteURL": "https://github.com/vvzvlad/Iuppiter",
       "email": "vvzvlad@gmail.com",
@@ -10,13 +10,13 @@
       },
       "platforms": [
         {
-          "name": "IupputerAVRCore",
+          "name": "Iupputer AVR Core",
           "architecture": "avr",
           "version": "0.95",
           "category": "Contributed",
           "url": "https://github.com/vvzvlad/Iuppiter/raw/master/arduino_ide_boards/IupputerAVRCore-0.95.tar.gz",
           "archiveFileName": "IupputerAVRCore-0.95.tar.gz",
-          "checksum": "SHA-256:1e308db26ae6cd9e2cf095ea94fd57e0152298f681c020f91015861f9a94fb1f",
+          "checksum": "SHA-256:4952a68cd22b12dc368307f013d745ca7aec05eb1da7f1672db8a88119c1259a",
           "size": "27733",
           "boards": [
             {"name": "ATmega168"},

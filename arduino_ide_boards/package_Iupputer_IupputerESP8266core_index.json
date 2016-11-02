@@ -8,11 +8,11 @@
       "websiteURL": "https://github.com/vvzvlad/Iuppiter",
       "platforms": [
         {
-          "category": "ESP8266", 
+          "category": "Contributed", 
           "name": "Iupputer", 
           "url": "https://github.com/vvzvlad/Iuppiter/raw/master/arduino_ide_boards/esp8266-2.3.0.tar.gz", 
-          "checksum": "SHA-256:a885a32645d896d2c31c0d7d5104fd37f576883c9c3985ddca73472d0400c85a", 
-          "size": "8221711",
+          "checksum": "SHA-256:6e10df531ddabae3db7d97dd925c15d4bd0484dc2010af16a3dcab3caf42426a", 
+          "size": "8221714",
           "help": {
             "online": "http://esp8266.github.com/Arduino/versions/2.3.0/"
           }, 
@@ -361,7 +361,7 @@
         }
       ], 
       "email": "vvzlad@gmail.com", 
-      "name": "esp8266"
+      "name": "Iuppiter"
     }
   ]
 }
