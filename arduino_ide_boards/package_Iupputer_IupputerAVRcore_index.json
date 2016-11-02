@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "Iupputer AVR",
+      "name": "iuppiteravrcore",
       "maintainer": "Iupputer",
       "websiteURL": "https://github.com/vvzvlad/Iuppiter",
       "email": "vvzvlad@gmail.com",

@@ -6,7 +6,7 @@
         "online": "http://esp8266.com/arduino"
       }, 
       "email": "vvzlad@gmail.com", 
-      "name": "esp8266iuppiter",
+      "name": "iuppiteresp8266core",
       "websiteURL": "https://github.com/vvzvlad/Iuppiter",
       "platforms": [
         {
@@ -28,17 +28,17 @@
           ], 
           "toolsDependencies": [
             {
-              "packager": "esp8266iuppiter", 
+              "packager": "iuppiteresp8266core", 
               "version": "0.4.9", 
               "name": "esptool"
             }, 
             {
-              "packager": "esp8266iuppiter", 
+              "packager": "iuppiteresp8266core", 
               "version": "1.20.0-26-gb404fb9-2", 
               "name": "xtensa-lx106-elf-gcc"
             }, 
             {
-              "packager": "esp8266iuppiter", 
+              "packager": "iuppiteresp8266core", 
               "version": "0.1.2", 
               "name": "mkspiffs"
             }
