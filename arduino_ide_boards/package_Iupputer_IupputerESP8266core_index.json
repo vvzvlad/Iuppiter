@@ -13,8 +13,8 @@
           "category": "Contributed", 
           "name": "Iuppiter ESP8266 Core", 
           "url": "https://github.com/vvzvlad/Iuppiter/raw/master/arduino_ide_boards/esp8266-2.3.0.tar.gz", 
-          "checksum": "SHA-256:6e10df531ddabae3db7d97dd925c15d4bd0484dc2010af16a3dcab3caf42426a", 
-          "size": "8221714",
+          "checksum": "SHA-256:1d1156fe0cddecb64816a835ff3d2d46ca94a697e5d64c1ccc3679a72077e76b", 
+          "size": "8221745",
           "help": {
             "online": "http://esp8266.github.com/Arduino/versions/2.3.0/"
           }, 

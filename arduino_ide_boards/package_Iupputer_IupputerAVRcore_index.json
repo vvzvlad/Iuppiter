@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/vvzvlad/Iuppiter/raw/master/arduino_ide_boards/IupputerAVRCore-0.95.tar.gz",
           "archiveFileName": "IupputerAVRCore-0.95.tar.gz",
-          "checksum": "SHA-256:4952a68cd22b12dc368307f013d745ca7aec05eb1da7f1672db8a88119c1259a",
-          "size": "27733",
+          "checksum": "SHA-256:cc4481b6113671dd5eeb8b7921318ec7e8d4b124f2d5499773b429601222254a",
+          "size": "27734",
           "boards": [
             {"name": "ATmega168"},
             {"name": "ATmega8"}
