@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "iuppiteravrcore",
-      "maintainer": "Iupputer",
+      "maintainer": "Iuppiter",
       "websiteURL": "https://github.com/vvzvlad/Iuppiter",
       "email": "vvzvlad@gmail.com",
       "help": {
@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Iupputer AVR Core",
+          "name": "Iuppiter AVR Core",
           "architecture": "avr",
           "version": "0.95",
           "category": "Contributed",

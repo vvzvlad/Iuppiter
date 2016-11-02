@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "maintainer": "Iupputer",
+      "maintainer": "Iuppiter",
       "help": {
         "online": "http://esp8266.com/arduino"
       }, 
@@ -11,7 +11,7 @@
       "platforms": [
         {
           "category": "Contributed", 
-          "name": "Iupputer ESP8266 Core", 
+          "name": "Iuppiter ESP8266 Core", 
           "url": "https://github.com/vvzvlad/Iuppiter/raw/master/arduino_ide_boards/esp8266-2.3.0.tar.gz", 
           "checksum": "SHA-256:6e10df531ddabae3db7d97dd925c15d4bd0484dc2010af16a3dcab3caf42426a", 
           "size": "8221714",
