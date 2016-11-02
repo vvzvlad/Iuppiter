@@ -9,7 +9,7 @@
       "platforms": [
         {
           "category": "Contributed", 
-          "name": "Iupputer", 
+          "name": "Iupputer ESP8266", 
           "url": "https://github.com/vvzvlad/Iuppiter/raw/master/arduino_ide_boards/esp8266-2.3.0.tar.gz", 
           "checksum": "SHA-256:6e10df531ddabae3db7d97dd925c15d4bd0484dc2010af16a3dcab3caf42426a", 
           "size": "8221714",
@@ -26,17 +26,17 @@
           ], 
           "toolsDependencies": [
             {
-              "packager": "esp8266", 
+              "packager": "Iupputer ESP8266", 
               "version": "0.4.9", 
               "name": "esptool"
             }, 
             {
-              "packager": "esp8266", 
+              "packager": "Iupputer ESP8266", 
               "version": "1.20.0-26-gb404fb9-2", 
               "name": "xtensa-lx106-elf-gcc"
             }, 
             {
-              "packager": "esp8266", 
+              "packager": "Iupputer ESP8266", 
               "version": "0.1.2", 
               "name": "mkspiffs"
             }
@@ -361,7 +361,7 @@
         }
       ], 
       "email": "vvzlad@gmail.com", 
-      "name": "Iuppiter"
+      "name": "Iuppiter ESP8266"
     }
   ]
 }
