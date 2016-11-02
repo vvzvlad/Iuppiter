@@ -3,11 +3,11 @@
     {
       "maintainer": "Iuppiter",
       "help": {
-        "online": "http://esp8266.com/arduino"
+        "online": "https://github.com/vvzvlad/Iuppiter/tree/master/arduino_ide_boards"
       }, 
       "email": "vvzlad@gmail.com", 
       "name": "iuppiteresp8266core",
-      "websiteURL": "https://github.com/vvzvlad/Iuppiter",
+      "websiteURL": "https://github.com/vvzvlad/Iuppiter/tree/master/arduino_ide_boards",
       "platforms": [
         {
           "category": "Contributed", 

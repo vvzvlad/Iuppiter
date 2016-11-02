@@ -3,10 +3,10 @@
     {
       "name": "iuppiteravrcore",
       "maintainer": "Iuppiter",
-      "websiteURL": "https://github.com/vvzvlad/Iuppiter",
+      "websiteURL": "https://github.com/vvzvlad/Iuppiter/tree/master/arduino_ide_boards",
       "email": "vvzvlad@gmail.com",
       "help": {
-        "online": "https://github.com/vvzvlad/Iuppiter/"
+        "online": "https://github.com/vvzvlad/Iuppiter/tree/master/arduino_ide_boards"
       },
       "platforms": [
         {
