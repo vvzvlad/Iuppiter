@@ -2,7 +2,7 @@
 
 Данный образ собран на основе NodeMCU 1.5.4.1 и включает в себя следующие модули:
  - adc: Работа с АЦП(в том числе и для проверки напряжения питания)
-  - документация(http://nodemcu.readthedocs.io/en/master/en/modules/adc/)
+  - [документация](http://nodemcu.readthedocs.io/en/master/en/modules/adc/)
  - bit: битовые операции
  - cjson: работа с JSON
  - dht: работа с датчиком 
