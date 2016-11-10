@@ -1,19 +1,16 @@
 local config = {}
 
-config.GPIO = {}
-config.GPIO.N16 = 0
-config.GPIO.N5 = 1
-config.GPIO.N4 = 2
 config.GPIO.N0 = 3
+config.GPIO.N1 = 10
 config.GPIO.N2 = 4
-config.GPIO.N14 = 5
+config.GPIO.N3 = 9
+config.GPIO.N4 = 2
+config.GPIO.N5 = 1
 config.GPIO.N12 = 6
 config.GPIO.N13 = 7
+config.GPIO.N14 = 5
 config.GPIO.N15 = 8
-config.GPIO.N3 = 9
-config.GPIO.N1 = 10
-config.GPIO.N9 = 11
-config.GPIO.N10 = 12
+config.GPIO.N16 = 0
 
 config.USERCONFIG_FLAG = "userconfig.flag"
 config.USERCONFIG_FILE = "userconfig.cfg"
